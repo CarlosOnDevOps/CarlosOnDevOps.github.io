@@ -10,48 +10,48 @@ const moocscards = [
     moocLink: "https://www.coursera.org/browse/data-science",
   },
   {
-    title: "Cryptography",
+    title: "Data Engineering",
     cardImage: "assets/images/education-page/udemy.svg",
     moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
   },
   {
-    title: "Machine Learning",
+    title: "Azure Fundamentals",
     cardImage: "assets/images/education-page/coursera2.svg",
     moocLink: "https://www.coursera.org/learn/machine-learning",
   },
   {
-    title: "Introduction to HTML 5",
+    title: "AWS Certified Cloud Practitioner",
     cardImage: "assets/images/education-page/udacity.svg",
     moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
   },
   {
-    title: "Introduction to CSS 3",
+    title: "Cisco CCNA",
     cardImage: "assets/images/education-page/udacity.svg",
     moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
   },
   {
-    title: "Javascript",
+    title: "CompTIA Project+",
     cardImage: "assets/images/education-page/udacity.svg",
     moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
   },
   {
-    title: "Bootstrap 4",
+    title: "CompTIA CySA+",
     cardImage: "assets/images/education-page/udemy.svg",
     moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
   },
   {
-    title: "Intro to React",
+    title: "CompTIA Security+",
     cardImage: "assets/images/education-page/edx.svg",
     moocLink: "https://www.edx.org/learn/reactjs",
   },
   {
-    title: "Intro to React Native",
+    title: "CompTIA Network+",
     cardImage: "assets/images/education-page/coursera2.svg",
     moocLink:
       "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
   },
   {
-    title: "NodeJS, Express and MongoDB",
+    title: "CompTIA A+",
     cardImage: "assets/images/education-page/coursera2.svg",
     moocLink: "https://www.coursera.org/learn/server-side-nodejs",
   },
@@ -138,17 +138,17 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Google Developer Essentials",
+    title: "Azure Fundamentals",
     image: "assets/images/education-page/badge1.png",
     description: "Earned May 20, 2020",
   },
   {
-    title: "VM Migration",
+    title: "AWS Certified Cloud Practitioner",
     image: "assets/images/education-page/badge2.png",
     description: "Earned June 20, 2020",
   },
   {
-    title: "G Suite Essentials",
+    title: "Cisco CCNA",
     image: "assets/images/education-page/badge3.png",
     description: "Earned July 20, 2020",
   },
