@@ -4,12 +4,12 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
+    title: "How TikTok Profits off Dangerous Health Trends",
     authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+      "A.W. Ohlheiser",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+      "",
+    researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/inteferenceNetwork.png",
     citation: {
@@ -17,7 +17,7 @@ const research = [
         "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+      "Castor oil won’t dissolve cysts and tumors. Some creators on TikTok Shop are earning commissions by suggesting otherwise.",
     absbox: "absPopup1",
   },
 
@@ -180,7 +180,7 @@ const fillData = () => {
                     <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                            ABSTRACT
+                            BRIEFING
                         </button>
                 
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
