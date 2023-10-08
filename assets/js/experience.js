@@ -19,21 +19,21 @@ const exp = [
     desp: "<li>Innovatively developed a Microsoft Power App to streamline IT inventory management analytics</li><li>Transformed over a decade's worth of Tableau reports into dynamic Power BI reports</li> <li>Produced detailed Crystal Reports drilling down on EMS financials</li> <li>Engineered customized ticketing systems using Microsoft Forms, SharePoint, and Power Automate</li> <li>Set up SharePoint sites for multiple departments, optimizing resource storage</li>",
   },
   {
-    title: "Information Security Analyst L2 / Dept. Data Analyst",
+    title: "Information Security Analyst (L2)",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
     place: "Integris",
     time: "(March 2022 - January 2023)",
     desp: "<li>Managed and secured Azure Active Directory architecture for 160+ clients, optimizing data access and security</li> <li>Pioneered and implemented the department’s inaugural training program, resulting in a notable uptick in documentation knowledge bases</li> <li>Collaborated with cross-functional teams, acting as a strategic security consultant for multiple high-impact projects</li>",
   },
   {
-    title: "Information Security Analyst L1",
+    title: "Information Security Analyst (L1)",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
     place: "CalTech",
     time: "(September 2021 - March 2022)",
     desp: "<li>Monitored and deployed changes in Azure Conditional Access policies</li> <li>Provided secondary support during Incident Response engagements</li> <li>Developed and maintained audit remediation projects improving our clients’ security postur</li>",
   },
   {
-    title: "Systems Administrator L1",
+    title: "Systems Administrator (L1)",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
     place: "CalTech",
     time: "(March 2022 - January 2023)",
@@ -47,7 +47,7 @@ const exp = [
     desp: "<li>Provided comprehensive technical guidance and support to Small Office/Home Office (SOHO) customers, addressing a wide range of inquiries and ensuring their technology needs were met efficiently and effectively</li>",
   },
   {
-    title: "Systems Administrator L1",
+    title: "Systems Administrator Intern",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
     place: "Griffin Technologies",
     time: "(March 2022 - January 2023)",
