@@ -93,13 +93,13 @@ const volunteershipcards = [
     title: '<a href="https://www.usnews.com/best-colleges/the-university-of-texas-at-tyler-11163" target="_blank">U.S. News Best Colleges</a>',
     cardImage: "assets/images/experience-page/1.jpg",
     description:
-      "As a Data Analyst at the University of Texas at Tyler, I played a key role in automating data processes and optimizing the ETL pipeline, ensuring timely and accurate data reporting on the U.S. News Best Colleges website. My efforts improved data efficiency and upheld the institution's commitment to data integrity and transparency, ultimately showcasing the university's strengths and achievements.",
+      "I automated data processes and optimized ETL for timely and accurate data reporting.",
   },
   {
     title: '<a href="https://www.uttyler.edu/information-analysis/fact-books/" target="_blank">The University of Texas at Tyler\'s Data Fact Books</a>',
     cardImage: "assets/images/experience-page/2.jpg",
     description:
-      "In my role as a Data Analyst at the University of Texas at Tyler, I actively contributed to the creation and maintenance of PowerBI reports and dashboards for UT Tyler's Data Fact Books. These reports covered various vital aspects of university information, including student enrollment, semester credit hours, degrees conferred, faculty profiles, student achievement, and performance measures. By ensuring the accuracy and accessibility of this data, I played a crucial part in presenting the university's essential statistics and achievements to a broader audience.",
+      "I maintained PowerBI reports and dashboards for data insights.",
   },
 ];
 
