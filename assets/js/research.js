@@ -1,38 +1,98 @@
-/* About Me Section */
+/*Research Details Table*/
 
-const aboutMeContainer = document.querySelector(".about-me");
+const researchTable = document.querySelector(".main");
 
-const aboutMeData = {
-  name: "Carlos Moreno",
-  role: "Data Analyst",
-  location: "Austin, Texas",
-  introduction:
-    "Hi, I'm John Doe, a passionate Data Analyst with a love for turning raw data into meaningful insights. I'm based in the vibrant city of Austin, Texas, where I thrive on solving complex problems and exploring the world of data.",
-  interests: [
-    "Data Science",
-    "Analytics",
-    "Healthcare",
-    "Financial Analysis",
-    "Machine Learning",
-  ],
+const research = [
+  {
+    title: "How TikTok Profits off Dangerous Health Trends",
+    authors:
+      "A.W. Ohlheiser",
+    conferences:
+      "",
+    researchYr: 2023,
+    citebox: "popup1",
+    image: "assets/images/research-page/inteferenceNetwork.png",
+    citation: {
+      vancouver:
+        "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+    },
+    abstract:
+      "Castor oil won’t dissolve cysts and tumors. Some creators on TikTok Shop are earning commissions by suggesting otherwise.",
+    absbox: "absPopup1",
+  },
+
+  {
+    title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
+    authors:
+      "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+    conferences:
+      "The 58th Annual Meeting of the Association for Computational Linguistics",
+    researchYr: 2020,
+    citebox: "popup2",
+    image: "assets/images/research-page/crossLingual.png",
+    citation: {
+      vancouver:
+        "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+    },
+    abstract:
+      "This is currently left empty and this can be considered as a dummy data 2",
+    absbox: "absPopup2",
+  },
+];
+AOS.init();
+const fillData = () => {
+  let output = "";
+  research.forEach(
+    ({
+      image,
+      title,
+      authors,
+      conferences,
+      researchYr,
+      citebox,
+      citation,
+      absbox,
+      abstract,
+    }) =>
+      (output += `
+            <tr data-aos="zoom-in-left"> 
+                <td class="imgCol"><img src="${image}" class="rImg"></td>
+                <td class = "researchTitleName">
+                    <div class="img-div">
+                        <span class="imgResponsive">
+                            <img src="${image}" class="imgRes">
+                        </span>
+                    </div>
+                    <a href="#0" class="paperTitle"> ${title} </a> 
+                    <div class = "authors"> ${authors} </div> 
+                    
+                    <div class="rConferences"> ${conferences} 
+                        <div class="researchY">${researchYr}</div>
+                    </div>
+                    
+                    <!--CITE BUTTON-->
+                    <div class="d-flex" style="margin-right:5%;">
+                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
+                            BRIEFING
+                        </button>
+                
+                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
+                            CITE
+                        </button>
+                    </div>
+                    <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
+                        <div class="card-body">
+                            ${abstract}    
+                        </div>
+                    </div>
+                    <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
+                        <div class="card-body">
+                            ${citation.vancouver}    
+                        </div>
+                    </div>
+                </td>
+            </tr>`)
+  );
+  researchTable.innerHTML = output;
 };
-
-const fillAboutMeData = () => {
-  aboutMeContainer.innerHTML = `
-    <h1 class="about-me-heading">About Me</h1>
-    <div class="about-me-details">
-      <h2 class="about-me-name">${aboutMeData.name}</h2>
-      <p class="about-me-role">${aboutMeData.role}</p>
-      <p class="about-me-location">${aboutMeData.location}</p>
-    </div>
-    <p class="about-me-introduction">${aboutMeData.introduction}</p>
-    <h3 class="about-me-interests-heading">My Interests</h3>
-    <ul class="about-me-interests-list">
-      ${aboutMeData.interests
-        .map((interest) => `<li class="interest-item">${interest}</li>`)
-        .join("")}
-    </ul>
-  `;
-};
-
-document.addEventListener("DOMContentLoaded", fillAboutMeData);
+document.addEventListener("DOMContentLoaded", fillData);
