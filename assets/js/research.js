@@ -38,7 +38,7 @@ const research = [
       "Microsoft Excel, Python, R, SAS, SQL, Tableau, Power BI, Microsoft SQL Server, PostgreSQL, Jupyter Notebook",
     absbox: "absPopup1",
   },
-  
+
   {
     title:
       "DATA ENGINEERING",
@@ -71,24 +71,6 @@ const research = [
     },
     abstract:
       "Python, R, Jupyter Notebooks, Matplotlib, Seaborn, Plotly, Git, GitHub",
-    absbox: "absPopup3",
-  },
-
-  {
-    title:
-      "CLOUD COMPUTING",
-    authors: "Where data drifts like a fluffy cloud, but the possibilities are sky-high",
-    conferences:
-      "",
-    researchYr: "Key Attributes: Scalability | Accessibility | Cost-Efficiency",
-    citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
-    citation: {
-      vancouver:
-        "As a cloud pro, you have the power to deploy applications like a commander. When your company needs more resources, you just call in reinforcements from the cloud. It's like having an army of digital helpers at your beck and call, ready to conquer any IT challenge.",
-    },
-    abstract:
-      "AWS, Azure, Google Cloud, Docker, IAM, Azure Active Directory",
     absbox: "absPopup3",
   },
 ];
