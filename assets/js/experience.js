@@ -7,7 +7,7 @@ const exp = [
   {
     title: "Data Analyst",
     cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "The University of Texas at Tyler",
+    place: "<a href='uttyler.edu'>The University of Texas at Tyler</a>",
     time: "(August, 2023 - Present)",
     desp: "<li>Automated complex data munging using SAS scripts, enhancing data handling for institutional characteristics, admissions, enrollment, and financial data</li> <li>Optimized a section of the ETL data pipeline to improve data processing efficiency</li> <li>Streamlined the data collection warehouse, optimizing onboarding processes for improved efficiency</li> <li>Generated ad-hoc reports to meet institutional requirements promptly</li> <li>Actively contributed to daily scrum meetings, ensuring project deadlines were met effectively</li>",
   },
