@@ -4,56 +4,91 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "How TikTok Profits off Dangerous Health Trends",
+    title: "SOFT SKILLS",
     authors:
-      "A.W. Ohlheiser",
+      "Making work feel less like a boardroom and more like a friendly game of chess",
     conferences:
       "",
-    researchYr: 2023,
-    citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
-    citation: {
-      vancouver:
-        "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "Castor oil won’t dissolve cysts and tumors. Some creators on TikTok Shop are earning commissions by suggesting otherwise.",
-    absbox: "absPopup1",
-  },
-
-  {
-    title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
-    authors:
-      "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+    researchYr: "Key Attributes: Communication | Teamwork | Problem-Solving | Adaptability",
     citebox: "popup2",
     image: "assets/images/research-page/crossLingual.png",
     citation: {
       vancouver:
-        "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Soft skills, like communication and empathy, turn you into a networking ninja. You're not just good with computers; you're fantastic with people too. You use your ninja skills to build strong relationships with clients, colleagues, and partners, which catapults your career to new heights.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 2",
+      "Slack, Zoom, Microsoft Teams, Microsoft PowerPoint, LinkedIn",
     absbox: "absPopup2",
   },
 
   {
-    title:
-      "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
+    title: "DATA ANALYTICS",
+    authors:
+      "Turning numbers into answers, one algorithm at a time",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+      "",
+    researchYr: "Key Attributes: Informed Decision-Making | Business Efficiency | Competitive Advantage",
+    citebox: "popup1",
+    image: "assets/images/research-page/inteferenceNetwork.png",
+    citation: {
+      vancouver:
+        "Think of data analytics as your superpower for sales. You analyze customer data to uncover trends and figure out which products are flying off the shelves. With this information, you become the sales superhero, making smart decisions to boost your company's profits and dominate the market.",
+    },
+    abstract:
+      "Microsoft Excel, Python, R, SAS, SQL, Tableau, Power BI, Microsoft SQL Server, PostgreSQL, Jupyter Notebook",
+    absbox: "absPopup1",
+  },
+
+  {
+    title:
+      "DATA ENGINEERING",
+    authors: "Constructing the digital pipelines that make data flow like highways",
+    conferences:
+      "",
+    researchYr: "Key Attributes: Data Pipeline | Data Quality | Speed and Efficiency",
     citebox: "popup3",
     image: "assets/images/research-page/wordRepresentation.png",
     citation: {
       vancouver:
-        "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Imagine being a data architect extraordinaire. You build and maintain the backbone of your company's data systems, ensuring everything runs super smoothly. Your work keeps the data flowing, making everyone else's jobs easier. You're the unsung hero behind the scenes.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 3",
+      "Apache Hadoop, Apache Spark, Amazon Redshift, Apache Airflow, Scala, Talend",
+    absbox: "absPopup3",
+  },
+  {
+    title:
+      "DATA SCIENCE",
+    authors: "It's not magic, but it's the closest thing we have to unraveling the mysteries of the universe",
+    conferences:
+      "The 58th Annual Meeting of the Association for Computational Linguistics",
+    researchYr: "Key Attributes: ",
+    citebox: "popup3",
+    image: "assets/images/research-page/wordRepresentation.png",
+    citation: {
+      vancouver:
+        "In the business world, data scientists are like fortune tellers. You use your magic (a.k.a. machine learning) to predict when things might go wrong, so your company can fix them before they do. It's like having a crystal ball for avoiding disasters and keeping everything running smoothly.",
+    },
+    abstract:
+      "Python, R, Jupyter Notebooks, Matplotlib, Seaborn, Plotly, Git, GitHub",
+    absbox: "absPopup3",
+  },
+
+  {
+    title:
+      "CLOUD COMPUTING",
+    authors: "Where data drifts like a fluffy cloud, but the possibilities are sky-high",
+    conferences:
+      "",
+    researchYr: "Key Attributes: Scalability | Accessibility | Cost-Efficiency",
+    citebox: "popup3",
+    image: "assets/images/research-page/wordRepresentation.png",
+    citation: {
+      vancouver:
+        "As a cloud pro, you have the power to deploy applications like a commander. When your company needs more resources, you just call in reinforcements from the cloud. It's like having an army of digital helpers at your beck and call, ready to conquer any IT challenge.",
+    },
+    abstract:
+      "AWS, Azure, Google Cloud, Docker, IAM, Azure Active Directory",
     absbox: "absPopup3",
   },
 ];
@@ -91,11 +126,11 @@ const fillData = () => {
                     <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                            BRIEFING
+                            TECH STACK (COMPETENCIES)
                         </button>
                 
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITE
+                            USE CASES (SIMPLIFIED)
                         </button>
                     </div>
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
