@@ -28,14 +28,14 @@ const exp = [
   {
     title: "Information Security Analyst (L1)",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "< a href='https://integrisit.com/industries/financial/about/'>CalTech</a>",
+    place: "<a href='https://integrisit.com/industries/financial/about/'>CalTech</a>",
     time: "(September 2021 - March 2022)",
     desp: "<li>Monitored and deployed changes in Azure Conditional Access policies</li> <li>Provided secondary support during Incident Response engagements</li> <li>Developed and maintained audit remediation projects improving our clients’ security postur</li>",
   },
   {
     title: "Systems Administrator (L1)",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "< a href='https://integrisit.com/industries/financial/about/'>CalTech</a>",
+    place: "<a href='https://integrisit.com/industries/financial/about/'>CalTech</a>",
     time: "(March 2022 - January 2023)",
     desp: "<li>Skillfully administered hardware, systems, and network configurations for over 160 financial sector clients</li>",
   },
