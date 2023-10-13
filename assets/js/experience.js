@@ -91,13 +91,13 @@ const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
     title: '<a href="https://www.usnews.com/best-colleges/the-university-of-texas-at-tyler-11163" target="_blank">U.S. News Best Colleges</a>',
-    cardImage: "assets/images/experience-page/1.jpg",
+    cardImage: "assets/images/experience-page/usnews.png",
     description:
       "I automated data processes and optimized ETL for timely and accurate data reporting ultimately showcasing the university's strengths and achievements.",
   },
   {
     title: '<a href="https://www.uttyler.edu/information-analysis/fact-books/" target="_blank">The University of Texas at Tyler\'s Data Fact Books</a>',
-    cardImage: "assets/images/experience-page/2.jpg",
+    cardImage: "assets/images/experience-page/factbooks.png",
     description:
       "I developed PowerBI reports and dashboards presenting the university's essential statistics and achievements to a broader audience",
   },
