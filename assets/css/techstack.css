@@ -233,66 +233,6 @@ div.techstack_icon>i.fa-node {
     color: #3C873A;
 }
 
-/* SQL Icon */
-div.sql_icon.techstack_icon>i.fa-database {
-    display: inline-block;
-    background: linear-gradient(-90deg, #FFA500 50%, #FF8C00 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-/* Excel Icon */
-div.excel_icon.techstack_icon>i.fa-file-excel {
-    display: inline-block;
-    background: linear-gradient(-90deg, #0A9D58 50%, #128C7E 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-/* R Icon */
-div.r_icon.techstack_icon>i.fa-chart-line {
-    display: inline-block;
-    background: linear-gradient(-90deg, #2767A3 50%, #2F5BB7 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-/* SAS Icon */
-div.sas_icon.techstack_icon>i.fa-chart-pie {
-    display: inline-block;
-    background: linear-gradient(-90deg, #EF3E5B 50%, #C82D47 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-/* Power BI Icon */
-div.powerbi_icon.techstack_icon>i.fa-chart-column {
-    display: inline-block;
-    background: linear-gradient(-90deg, #F2C811 50%, #F0AB00 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-/* Tableau Icon */
-div.tableau_icon.techstack_icon>i.fa-table {
-    display: inline-block;
-    background: linear-gradient(-90deg, #0099F4 50%, #007BB9 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
 div.techstack_icon>i.fa-cuttlefish {
     color: #044F88;
 }
