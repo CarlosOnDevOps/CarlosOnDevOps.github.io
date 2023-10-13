@@ -88,7 +88,7 @@ const projects = [
     description:
       "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://github.com/CarlosOnDevOps/Projects/tree/main/GlobalGDP_Trends_Analysist",
+    Previewlink: "https://github.com/CarlosOnDevOps/Projects/tree/main/GlobalGDP_Trends_Analysis",
     Githublink: "",
   },
   {
