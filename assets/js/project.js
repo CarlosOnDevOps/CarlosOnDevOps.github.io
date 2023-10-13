@@ -6,7 +6,7 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: <a href='https://github.com/CarlosOnDevOps/Projects/blob/main/README.md#one-developing-a-business-intelligence-solution-for-a-global-manufacturing-company'>"AdventureWorks Business Intelligence Solution"</a>,
+    title: "AdventureWorks Business Intelligence Solution",
     cardImage: "assets/images/project-page/quiz.jpg",
     description: "Embark on a journey with Adventure Works Cycles, a global manufacturing giant, as we design and deliver a cutting-edge business intelligence solution from scratch. Dive into raw CSV data to track KPIs, analyze regional performance, and identify high-value customers.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
