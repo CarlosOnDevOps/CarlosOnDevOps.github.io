@@ -6,12 +6,12 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    cardImage: "assets/images/education-page/udacity.png",
     moocLink: "https://graduation.udacity.com/confirm/e/92ae5832-4211-11ee-a2ca-533f61c89ab2",
   },
   {
     title: "Data Engineering",
-    cardImage: "assets/images/education-page/udemy.svg",
+    cardImage: "assets/images/education-page/udacity.png",
     moocLink: "https://graduation.udacity.com/confirm/e/257dabb6-4f43-11ee-b1c5-9f3b78b6626c",
   },
   {
