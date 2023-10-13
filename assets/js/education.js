@@ -16,42 +16,42 @@ const moocscards = [
   },
   {
     title: "Azure Fundamentals",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    cardImage: "assets/images/education-page/azurefundamentals.png",
     moocLink: "https://www.credly.com/badges/2e5a9773-3ca0-41a0-b5b8-f01578b35b06/public_url",
   },
   {
     title: "AWS Certified Cloud Practitioner",
-    cardImage: "assets/images/education-page/udacity.svg",
+    cardImage: "assets/images/education-page/awscloud.png",
     moocLink: "https://www.credly.com/earner/earned/badge/acdaf9ec-7c3a-4c05-bfe5-17078e7ade5c",
   },
   {
     title: "Cisco CCNA",
-    cardImage: "assets/images/education-page/udacity.svg",
+    cardImage: "assets/images/education-page/ccna.png",
     moocLink: "https://www.credly.com/earner/earned/badge/dc3ccc4f-a0a3-4c7d-93bc-cff02282f42f",
   },
   {
     title: "CompTIA Project+",
-    cardImage: "assets/images/education-page/udacity.svg",
+    cardImage: "assets/images/education-page/project+.png",
     moocLink: "https://www.credly.com/earner/earned/badge/ff680ce2-3edd-47fb-87b2-835afcf3e395",
   },
   {
     title: "CompTIA CySA+",
-    cardImage: "assets/images/education-page/udemy.svg",
+    cardImage: "assets/images/education-page/cysa+.png",
     moocLink: "https://www.credly.com/earner/earned/badge/6701c3f9-d9ca-469b-97a8-6740a64f817b",
   },
   {
     title: "CompTIA Security+",
-    cardImage: "assets/images/education-page/edx.svg",
+    cardImage: "assets/images/education-page/security+.png",
     moocLink: "https://www.credly.com/earner/earned/badge/32e5b6c9-a37d-48ce-a578-72e0613d250f",
   },
   {
     title: "CompTIA Network+",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    cardImage: "assets/images/education-page/network+.png",
     moocLink: "https://www.credly.com/earner/earned/badge/5b5a3167-ddef-497f-9c01-f6e1f686eda2",
   },
   {
     title: "CompTIA A+",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    cardImage: "assets/images/education-page/a+.png",
     moocLink: "https://www.credly.com/earner/earned/badge/ab7b0c08-a9ab-428e-89e0-d1823f0cc4c3",
   },
 ];
