@@ -10,8 +10,8 @@ const projects = [
     cardImage: "assets/images/project-page/quiz.jpg",
     description: "Embark on a journey with Adventure Works Cycles, a global manufacturing giant, as we design and deliver a cutting-edge business intelligence solution from scratch. Dive into raw CSV data to track KPIs, analyze regional performance, and identify high-value customers.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://github.com/CarlosOnDevOps/Projects",
-    Githublink: "https://github.com/CarlosOnDevOps/Projects/blob/main/README.md#one-developing-a-business-intelligence-solution-for-a-global-manufacturing-company",
+    Previewlink: "https://github.com/CarlosOnDevOps/Projects/blob/main/README.md#one-developing-a-business-intelligence-solution-for-a-global-manufacturing-company",
+    Githublink: "",
   },
   {
     title: "Tale of Tails: Twitter Dog Ratings Analysis",
