@@ -47,7 +47,7 @@ const research = [
       "",
     researchYr: "Key Attributes: Data Pipeline | Data Quality | Speed and Efficiency",
     citebox: "popup3",
-    image: "assets/images/research-page/data_engineering.jpg",
+    image: "assets/images/research-page/data_engineering.png",
     citation: {
       vancouver:
         "Imagine being a data architect extraordinaire. You build and maintain the backbone of your company's data systems, ensuring everything runs super smoothly. Your work keeps the data flowing, making everyone else's jobs easier. You're the unsung hero behind the scenes.",
