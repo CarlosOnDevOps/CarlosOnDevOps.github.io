@@ -100,7 +100,7 @@ const techStack = [
     langDesc: "<li>Apache Airflow is an open-source platform for orchestrating complex workflows and data pipeline automation.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/Oracle.png",
+    langImage: "assets/images/techstack-page/oracle.png",
     langName: "Oracle SQL Developer",
     langDesc: "<li>Oracle is a leading database management system and cloud services provider.</li>",
   },
