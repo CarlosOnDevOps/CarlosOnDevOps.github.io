@@ -7,8 +7,8 @@ const referenceTable = document.querySelector(".pain");
 const references = [
   {
     sl1: 1,
-    name1 : "Smaranjit Ghose",
-        designation1 : "Product Manager, Microsoft",
+    name1 : "Michael Adams",
+        designation1 : "President, Integris - Financial Division",
         image1 : "https://avatars.githubusercontent.com/u/46641503?v=4",
         message1 : "John is a conscientious individual whom I mentored during JWOC'2021. His problem-solving skills and a keen interest in learning new skillsets are remarkable. His hardworking nature and team-building abilities make him different from others.",
         
